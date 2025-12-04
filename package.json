@@ -16,5 +16,14 @@
         "sqlite": "^5.1.1",
         "sqlite3": "^5.1.7",
         "validator": "^13.15.15"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mourice-dev/Scrimba-express-authentication.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/mourice-dev/Scrimba-express-authentication/issues"
+    },
+    "homepage": "https://github.com/mourice-dev/Scrimba-express-authentication#readme"
 }
