@@ -444,3 +444,16 @@ button:active {
     max-width: 1em;
     margin-right: .3em;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+}
+
+@media (max-width: 600px) {
+    footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
