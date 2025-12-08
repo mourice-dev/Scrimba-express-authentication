@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "append_css",
+			"type": "shell",
+			"command": "echo \"\nfooter {\n    text-align: center;\n    padding: 20px;\n    background-color: var(--color-bg-dark);\n    color: var(--color-text-light);\n}\n\n@media (max-width: 600px) {\n    footer {\n        font-size: 0.8rem;\n        padding: 10px;\n    }\n}\" >> public/css/index.css",
+			"args": [],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
